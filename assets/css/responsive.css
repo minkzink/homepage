@@ -1,0 +1,200 @@
+/* 05 responsive styles */
+@media screen and (min-width: 769px) {
+  .md-mb40 {
+    margin-bottom: 40px;
+  }
+  .translateY130 {
+    -webkit-transform: translateY(130px);
+    -ms-transform: translateY(130px);
+    transform: translateY(130px);
+  }
+  .translateY140 {
+    -webkit-transform: translateY(140px);
+    -ms-transform: translateY(140px);
+    transform: translateY(140px);
+  }
+  .translateY150 {
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .pad120 {
+    padding: 40px 0;
+  }
+  .pad-t120 {
+    padding-top: 40px;
+  }
+  .sm-pad-b {
+    padding-bottom: 40px;
+  }
+  .mt60,
+  .mt65 {
+    margin-top: 30px;
+  }
+  .sm-mb30 {
+    margin-bottom: 30px;
+  }
+  .sm-mb40 {
+    margin-bottom: 40px;
+  }
+  .parallax {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pad-top120 {
+    padding-top: 30px;
+  }
+  .pad120 {
+    padding: 30px 0;
+  }
+  .pad-t90 {
+    padding-top: 30px;
+  }
+  .pad-t120 {
+    padding-top: 30px;
+  }
+  .mt60 {
+    margin-top: 10px;
+  }
+  .mt65 {
+    margin-top: 15px;
+  }
+  .xs-mb30 {
+    margin-bottom: 30px;
+  }
+  .xs-mb40 {
+    margin-bottom: 40px;
+  }
+  .mass-head-pad {
+    padding: 120px 0 60px;
+  }
+  .indicator {
+    -webkit-transform: translateY(-110px);
+    -ms-transform: translateY(-110px);
+    transform: translateY(-110px);
+  }
+  .section-title .title-text, .section-title .sm-title-text {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .section-title .sm-title-text {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .section-title .subtitle-text {
+    margin-bottom: 20px;
+  }
+  .bio-table table {
+    width: 100%;
+  }
+  .experience-item .duration {
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    line-height: 25px;
+    padding: 50px 0;
+  }
+  .testimonial-carousel {
+    position: relative;
+  }
+  .testimonial-carousel .testimonial-item .testimonial-content {
+    text-align: center;
+    width: 100%;
+  }
+  .testimonial-carousel .testimonial-item .testimonial-content h4 {
+    color: #ff8a00;
+    text-transform: uppercase;
+    padding: 30px 0 0;
+  }
+  .testimonial-carousel .testimonial-item .testimonial-avatar img {
+    margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  .testimonial-carousel.right-align .testimonial-item .testimonial-content {
+    float: none;
+    margin-bottom: 30px;
+  }
+  .testimonial-carousel.right-align .testimonial-item .testimonial-avatar {
+    float: none;
+  }
+  .testimonial-carousel.right-align .owl-dots {
+    text-align: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .testimonial-carousel.left-align .testimonial-item .testimonial-content {
+    float: none;
+  }
+  .testimonial-carousel.left-align .testimonial-item .testimonial-avatar {
+    float: none;
+  }
+  .testimonial-carousel.left-align .owl-dots {
+    text-align: center;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .blog-post-list .blog-post-item {
+    position: relative;
+  }
+  .blog-post-list .blog-post-item .thumb-wrap {
+    position: relative;
+    float: left;
+  }
+  .blog-post-list .blog-post-item .thumb-wrap .blog-post-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    background: #fafafa;
+    width: 100%;
+  }
+  ul.social-icon {
+    margin: 0 0 30px;
+  }
+  .counter-box {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .counter-box .counter-icon {
+    margin-bottom: 5px;
+  }
+  .counter-box .counter-icon i:before {
+    font-size: 30px;
+    color: #ff8a00;
+  }
+  .counter-box .counter-content .counter {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .counter-box .counter-content h4 {
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mass-head-content h2.page-title {
+    line-height: 40px;
+    margin-top: 10px;
+  }
+  .footer-contact.text-right, .footer-contact.text-left {
+    text-align: center;
+  }
+  .footer-icon i:before {
+    color: #ff8a00;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* 05 responsive styles */
+
+/*# sourceMappingURL=responsive.css.map */
